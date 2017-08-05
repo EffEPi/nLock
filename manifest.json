@@ -1,0 +1,33 @@
+{
+	"manifest_version": 2,
+
+	"name": "nLock",
+	"short_name": "",
+	"description": "Browser Jokes when a coworker computer is left on.",
+	"version": "1.0",
+	"author": "Fabrizio Parrella",
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"icons": {
+		"256": "/img/icons/256.png"
+	},
+	"content_scripts": [{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"css": [
+			],
+			"js": [
+				"/js/content.js"
+			],
+			"run_at": "document_idle",
+			"all_frames": false
+		}],
+	"web_accessible_resources": [
+		"plugins/**/*.js"
+	]
+}
