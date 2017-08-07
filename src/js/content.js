@@ -13,8 +13,10 @@
 	var chance=Math.floor(Math.random()*100);
 	if(chance<20){
 		let plugins=[
+			'background-img',
 			'cenafy',
 			'cloud-to-butt',
+			'div-img',
 			'ncage'
 		];
 		let plugin=plugins[Math.floor(Math.random()*plugins.length)];

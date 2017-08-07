@@ -4,7 +4,7 @@
 	"name": "nLock",
 	"short_name": "Browser Jokes when a coworker computer is left on.",
 	"description": "Browser Jokes when a coworker computer is left on.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Fabrizio Parrella",
 	"permissions": [
 		"tabs",
