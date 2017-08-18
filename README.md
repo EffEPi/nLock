@@ -16,8 +16,9 @@ This extension includes variations of the following extensions:
 
 Newly added:
  - background-img: randomly adds an image to the body of the page pulling from http://lorempixel.com/
- - div-img: randomly adds an image to every div of page pulling from http://lorempixel.com/
+ - div-img: randomly adds an image to every up to 10 div of page pulling from http://lorempixel.com/
+ - not-bug: adds a bug to the page in a random place
 
 If you have any questions, ideas, or problems, feel free to let me know via email: fabrizio@ourstickys.com
 
-Please keep in mind that this extension has only a 20% chance to run so that your friend won't realize right away of the changes.
+Please keep in mind that this extension has only a 50% chance to run so that your friend won't realize right away of the changes.
